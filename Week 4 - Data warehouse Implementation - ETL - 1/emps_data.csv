@@ -1,0 +1,11 @@
+employee_id,emp_name,department,commission,days_sick
+1,Alan Abbots,10,0,0
+2,Bill Bates,10,-10,0
+3,Callum Cross,10,10,0
+4,Dale Denton,20,100,0
+5,Evan Evans,20,10,0
+6,Fred Frog,20,100,0
+7,Gill Gree,30,100,0
+8,Hillary Hall,30,0,13
+9,Issy Ingle,40,10,0
+10,Jo Jane,50,100,0

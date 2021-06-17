@@ -1,0 +1,55 @@
+-- 1 Number of orders made in UK first quarter of the year, in comparison with last year?
+select T.year, sum(total_order) as total_number_of_order
+from factTable F, Time_Dim T, Country_Dim C
+where F.time_id = T.time_id
+and T.year = TO_CHAR(sysdate, 'Q')
+and T.year = to_char(sysdate, 'YYYY')
+and C.country_id = 'uk'
+group by T.year
+union 
+select T.year, sum(total_order) as total_number_of_order
+from factTable F, Time_Dim T, Country_Dim C
+where F.time_id = T.time_id
+and T.year = TO_CHAR(sysdate, 'Q')
+and T.year = to_char(sysdate, 'YYYY')-1
+and C.country_id = 'uk'
+group by T.year
+
+-- 2 Who is our best customer, in first quarter of this year.
+select C.first_name || ' is the best customer of this quarter year' 
+from factTable F, Time_Dim T, Customer_Dim C
+where F.customer_id = C.customer_id
+and T.year = TO_CHAR(sysdate, 'Q')
+and T.year = to_char(sysdate, 'YYYY')
+and F.time_id = T.time_id
+and total_order = (select max(total_order) from factTable)
+
+
+-- 3 Total number of orders made in first quarter of the year, in comparison with last year for each branch?
+select B.branch_name, T.year, sum(F.total_order) as total_number_of_order
+from factTable F, Time_Dim T, Branch_Dim B
+where F.branch_id = B.branch_id
+and F.time_id = T.time_id
+and T.year = TO_CHAR(sysdate, 'Q')
+and T.year = to_char(sysdate, 'YYYY')
+group by B.branch_name, T.year
+union
+select B.branch_name, T.year, sum(F.total_order) as total_number_of_order
+from factTable F, Time_Dim T, Branch_Dim B
+where F.branch_id = B.branch_id
+and F.time_id = T.time_id
+and T.year = TO_CHAR(sysdate, 'Q')
+and T.year = to_char(sysdate, 'YYYY')-1
+group by B.branch_name, T.year
+
+
+
+
+-- 4 Who is our best Agent, in the first quarter of this year.
+select A.name, || ' is the best agent of this quarter year'
+from factTable F, Time_Dim T, Agent_Dim A
+where F.agent_id = A.agent_id
+and F.time_id = T.time_id
+and T.year = TO_CHAR(sysdate, 'Q')
+and T.year = to_char(sysdate, 'YYYY')
+and total_order = (select max(total_order) from factTable)

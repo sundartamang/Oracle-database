@@ -1,0 +1,78 @@
+Customer,State,Customer Lifetime Value,Coverage,Effective To Date,EmploymentStatus,Gender,Income,Location Code,Marital Status,Policy Type,Policy,Sales Channel,Total Claim Amount,Vehicle Size
+HB64268,WA,2813.692575,Basic,02/03/2011,Employed,M,43836,Rural,Single,Personal Auto,Personal L1,Agent,384.81,Medsize
+SV62436,WA,3041.791561,Gold,1/21/11,Disabled,F,13789,Suburban,Divorced,Personal Auto,Personal L3,Call Center,138.13,Medsize
+AO98601,WA,5018.885233,Basic,1/18/11,Employed,M,54500,Suburban,Married,Corporate Auto,Corporate L2,Agent,379.2,Small
+DH41343,WA,2443.665166,Basic,2/23/11,Employed,M,92834,Suburban,Married,Special Auto,Special L2,Call Center,516.24,Large
+XR95069,WA,4854.745666,Basic,2/16/11,Employed,M,29834,Suburban,Single,Personal Auto,Personal L3,Agent,302.4,Medsize
+SM52139,WA,2930.693543,Basic,1/31/11,Employed,M,33663,Suburban,Married,Personal Auto,Personal L3,Web,292.8,Medsize
+LN31673,WA,11318.08982,Extended,02/06/2011,Employed,M,38923,Rural,Married,Personal Auto,Personal L3,Agent,307.2,Medsize
+HF88410,WA,7703.397294,Basic,2/28/11,Employed,M,36765,Suburban,Married,Personal Auto,Personal L2,Call Center,350.4,Medsize
+OE75231,WA,10656.88195,Extended,2/27/11,Employed,F,72540,Suburban,Married,Corporate Auto,Corporate L3,Call Center,115.73,Medsize
+YQ74870,WA,7556.24034,Extended,02/12/2011,Employed,,35257,Suburban,Divorced,Corporate Auto,Corporate L2,Web,320.85,Small
+CR48975,WA,24084.5352,Basic,02/02/2011,Employed,,65196,Suburban,Married,Personal Auto,Personal ,Branch,631.74,Medsize
+YT36855,WA,2981.875575,Extended,2/24/11,,,0,Suburban,Married,Personal Auto,Personal ,Web,470.4,Medsize
+RB50392,WA,7838.068321,Basic,2/17/11,,F,0,Rural,Married,Personal Auto,Personal L1,Agent,396.08,Medsize
+RB81636,WA,2274.775451,Basic,1/15/11,,F,0,Suburban,Single,Personal Auto,Personal L2,Agent,582.68,Small
+GD83998,WA,2659.337982,Basic,1/31/11,Employed,M,24495,Suburban,Single,Personal Auto,Personal L2,Branch,2.7,Small
+WA25797,WA,8564.768226,Basic,2/17/11,Employed,M,95697,Rural,Married,Personal Auto,Personal L3,Agent,606.64,Medsize
+ML93326,WA,4475.424592,Basic,2/27/11,Employed,F,84903,Urban,Married,Personal Auto,Personal L1,Agent,806.4,Medsize
+JP69864,WA,2248.449633,Basic,1/29/11,Retired,F,24910,Suburban,Widowed,Personal Auto,Personal L1,Branch,336,Medsize
+RU49126,WA,4465.335703,Basic,02/01/2011,Employed,F,61846,Rural,Married,Personal Auto,Personal L2,Agent,178.01,Medsize
+IX37561,WA,5097.763337,Basic,2/14/11,,F,0,Suburban,Single,Personal Auto,Personal L3,Web,497.13,Medsize
+YL83902,WA,3274.194616,Extended,01/11/2011,Employed,F,31686,Suburban,Married,Personal Auto,Personal L3,Agent,347.86,Small
+EH41854,WA,23706.11337,Extended,02/10/2011,Unemployed,F,0,Suburban,Single,Personal Auto,Personal L1,Branch,215.82,Medsize
+BG76355,WA,6274.123875,Extended,1/31/11,Employed,F,68964,Rural,Married,Personal Auto,Personal L3,Web,532.8,Medsize
+KX54357,WA,11365.26766,Extended,1/22/11,Employed,M,84910,Urban,Married,Corporate Auto,Corporate L3,Web,430.99,Small
+KY33386,WA,8007.399376,Basic,01/02/2011,Unemployed,F,0,Suburban,Divorced,Personal Auto,Personal L3,Web,844.48,Medsize
+UK68427,WA,6369.262355,Extended,1/20/11,Employed,M,34498,Suburban,Single,Personal Auto,Personal L3,Branch,115.09,Small
+CT41158,WA,10747.03094,Extended,2/25/11,Employed,M,66446,Urban,Divorced,Corporate Auto,Corporate L1,Branch,383.17,Large
+AO87348,WA,2050.623512,Basic,2/16/11,Unemployed,M,0,Suburban,Single,Personal Auto,Personal L3,Agent,537.6,Small
+DE55857,WA,2465.444865,Basic,1/30/11,Employed,F,64997,Suburban,Single,Personal Auto,Personal L3,Agent,398.4,Small
+OD76309,WA,7805.31287,Basic,1/27/11,Retired,F,21073,Suburban,Divorced,Personal Auto,Personal L3,Agent,639.46,Small
+JM62924,WA,13223.04379,Extended,02/09/2011,Employed,M,37534,Suburban,Married,Personal Auto,Personal L3,Branch,292.8,Medsize
+AE98193,WA,7859.414569,Basic,01/01/2011,Unemployed,M,0,Suburban,Single,Personal Auto,Personal L1,Branch,383.44,Medsize
+AY40674,WA,4821.418454,Extended,02/06/2011,Employed,F,26583,Suburban,Married,Personal Auto,Personal L2,Agent,508.8,Medsize
+LA97014,WA,2576.513006,Basic,2/24/11,Employed,M,37574,Suburban,Married,Personal Auto,Personal L1,Agent,403.2,Medsize
+NB79936,WA,8346.983233,Premium,02/02/2011,Employed,M,48259,Rural,Single/Divorced ,Personal Auto,Personal L2,Branch,813.6,Medsize
+FE84989,WA,5035.744643,Gold,01/09/2011,Employed,M,72672,Urban,Married,Personal Auto,Personal L2,Call Center,614.4,Large
+MF82000,WA,2365.348601,Basic,1/13/11,Unemployed,F,0,Rural,Married,Special Auto,Special L2,Branch,412.1,Medsize
+YR34119,WA,31161.74523,Basic,02/02/2011,Employed,F,30916,Rural,Married,Personal Auto,Personal L1,Agent,73.7,Small
+VC22097,WA,8714.922135,Basic,2/21/11,Unemployed,F,0,Suburban,Divorced,Corporate Auto,Corporate L3,Agent,259.36,Medsize
+UB16654,WA,4718.558501,Basic,2/27/11,Disabled,M,15680,Urban,Divorced,Personal Auto,Personal L3,Web,159.64,Medsize
+HR85211,WA,5123.170887,Basic,1/14/11,Employed,F,89879,Rural,Married,Personal Auto,Personal L3,Web,200.12,Medsize
+UV54502,WA,2537.744494,Basic,2/20/11,Unemployed,F,0,Suburban,Married,Personal Auto,Personal L3,Branch,566.4,Large
+LL45497,WA,2487.729726,Basic,02/02/2011,Employed,F,67282,Suburban,Married,Personal Auto,Personal L2,Web,260.88,Medsize
+YM57893,WA,4685.504251,Premium,01/05/2011,Employed,M,77678,Suburban,Married,Personal Auto,Personal L2,Call Center,94.03,Small
+RA66180,WA,2764.032126,Basic,01/10/2011,Employed,F,33837,Urban,Married,Corporate Auto,Corporate L2,Branch,331.2,Medsize
+QP84605,WA,8709.845263,Premium,02/03/2011,Employed,F,41546,Rural,Divorced,Corporate Auto,Corporate L1,Call Center,297.6,Medsize
+XH85336,WA,5548.031892,Basic,1/13/11,Employed,M,67798,Suburban,Divorced,Personal Auto,Personal L3,Agent,741.42,Medsize
+ZH17561,WA,5097.526248,Extended,1/24/11,Medical Leave,F,21665,Suburban,Divorced,Corporate Auto,Corporate L2,Branch,305.58,Medsize
+VH31965,WA,5285.118669,Basic,1/24/11,Employed,M,40783,Suburban,Married,Personal Auto,Personal L1,Call Center,121.31,Medsize
+EG48956,WA,4031.104947,Basic,02/07/2011,Unemployed,M,0,Suburban,Married,Personal Auto,Personal L2,Call Center,331.2,Large
+UF88986,WA,2794.907476,Basic,1/22/11,Employed,F,39783,Suburban,Single,Personal Auto,Personal L1,Branch,765.71,Medsize
+JY45873,WA,5015.009472,Extended,02/03/2011,Employed,F,48567,Suburban,Single,Corporate Auto,Corporate L2,Agent,321.6,Medsize
+CM55703,WA,2896.918767,Basic,02/09/2011,Employed,F,33746,Suburban,Divorced,Personal Auto,Personal L3,Agent,639.46,Medsize
+ZY90118,WA,4165.354461,Premium,01/03/2011,Medical Leave,M,17161,Suburban,Married,Corporate Auto,Corporate L1,Call Center,345.6,Small
+UM45563,WA,4502.679656,Basic,1/27/11,Employed,M,68798,Rural,Single,Personal Auto,Personal L2,Call Center,624,Medsize
+QZ42725,,2310.882998,Basic,01/01/2011,Unemployed,F,0,Suburban,Single,Personal Auto,Personal L3,Agent,355.2,Medsize
+ZH19885,,2514.59196,Basic,2/14/11,Employed,F,43860,Rural,Single,Personal Auto,Personal L3,Agent,542.4,Medsize
+HF75891,WA,4331.460674,Basic,02/11/2011,Employed,F,82302,Suburban,Married,Personal Auto,Personal L2,Branch,92.92,Medsize
+HI74419,WA,8092.87696,Basic,02/05/2011,Employed,M,50825,Urban,Married,Personal Auto,Personal L2,Agent,460.8,Medsize
+QP80741,WA,6048.574243,Basic,01/01/2011,Unemployed,F,0,Suburban,Married,Corporate Auto,Corporate L1,Agent,156.12,Medsize
+OY51402,WA,8255.76385,Basic,1/14/11,Employed,F,54040,Rural,Married,Personal Auto,Personal L2,Agent,722.18,Medsize
+RJ85627,WA,12302.76244,Basic,01/05/2011,Employed,F,43817,Urban,Married,Personal Auto,Personal L3,Branch,369.61,Medsize
+QV59143,WA,8236.917193,Premium,02/02/2011,Unemployed,F,0,Suburban,Married,Special Auto,Special L2,Web,292.8,Large
+IJ50779,WA,12298.6863,Basic,2/20/11,Medical Leave,M,17101,Suburban,Single,Personal Auto,Personal L3,Call Center,59.99,Medsize
+CA86085,WA,5608.316348,Basic,2/22/11,Employed,M,67176,Suburban,Single,Personal Auto,Personal L3,Branch,245.45,Large
+GM62071,WA,21435.87782,Basic,01/07/2011,Employed,F,20668,Suburban,Married,Personal Auto,Personal L3,Call Center,603.06,Large
+RZ27571,WA,2695.963857,Basic,2/13/11,Employed,F,25544,Suburban,Married,Personal Auto,Personal L3,Agent,542.4,Medsize
+GT62080,WA,7433.820995,Basic,1/29/11,Employed,M,55561,Urban,Divorced,Personal Auto,Personal L2,Call Center,345.6,Medsize
+ZJ18419,WA,5802.83547,Extended,2/28/11,Unemployed,F,0,Suburban,Married,Personal Auto,Personal L1,Branch,902.4,Small
+ZF40671,WA,12427.39371,Premium,02/09/2011,Medical Leave,F,15818,Urban,Married,Personal Auto,Personal L2,Call Center,326.4,Medsize
+UG34438,WA,10990.59477,Extended,1/16/11,Employed,F,44552,Rural,Married,Personal Auto,Personal L3,Branch,227.87,Medsize
+DG80424,WA,2691.568951,Basic,1/24/11,Employed,F,77411,Urban,Married,Personal Auto,Personal L2,Agent,644.76,Medsize
+GB33195,WA,2275.363967,Basic,01/12/2011,Unemployed,M,0,Suburban,Single,Personal Auto,Personal L3,Branch,333.89,Medsize
+PT64580,WA,4191.966092,Basic,1/29/11,Employed,M,77048,Rural,Married,Personal Auto,Personal L1,Agent,311.1,Medsize
+MP53505,WA,5500.01251,Extended,02/11/2011,Employed,F,86073,Rural,Married,Corporate Auto,Corporate L3,Agent,257.9,Medsize
+UG79499,Washington ,11681.37428,Extended,26/02/2011,Employed,M,70930,Rural,Divorced,Personal Auto,Personal L1,Agent,662.69,Medsize
+HD95276,WA,4737.871725,Extended,25/03/2011,Unemployed,F,0,Rural,Married,Personal Auto,Personal L3,Branch,141.2,Medsize

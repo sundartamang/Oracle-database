@@ -1,0 +1,68 @@
+/* Find the quantity, the total income and discount with respect
+to each city, type of furniture and the month */
+
+
+select C.city, F.furniture, 
+count(quantity), count(income), count(discount) 
+from sales S, dim_time T, dim_customer C, dim_furniture F
+where S.customer_id = C.customer_id
+S.time_id = T.time_id
+s.furniture_id = F.furniture_id
+GROUP By T.month, F.type, C.city
+
+/*or if we have seperet table we can do by not joiing table */
+
+
+
+/* Find the average quantity, income and discount with respect
+to each country, furniture material and year */
+
+select C.country, F.material, T.year
+avg(quantity), avg(income), avg(discount) 
+from sales S, dim_time T, dim_customer C, dim_furniture F
+where S.customer_id = C.customer_id
+S.time_id = T.time_id
+s.furniture_id = F.furniture_id
+GROUP By C.country, F.material, F.Year
+
+
+
+
+/*Determine the 5 most sold furnitures during the May month */
+
+select f.furniture, sum(s.quantity)
+from 
+( select f.type, sum(s.quantity) as totalquantity
+  Rank() over(order by sum(s.quantity) desc)
+As Rank
+from sales s, dim_furniture f, dim_time t
+where 
+s.furniture_id = f.furniture_id
+s.time_id = t.time_id
+t.month = "May"
+)
+where rank <=5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

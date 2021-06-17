@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook original-version='18.1' source-build='2021.1.2 (20211.21.0511.0935)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='trans_flight+' inline='true' name='federated.0n8hq4l0b3wrhu1fae0vg1jv68wf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='trans_flight' name='textscan.0ie2vs81cfpdzk1g8flg51qo399k'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='D:/British/Oracle/assignment/Assignment/trans_reports/trans_flight.csv' dataRefreshTime='' directory='D:/British/Oracle/assignment/Assignment/trans_reports' filename='C:/Users/sunda/AppData/Local/Temp/TableauTemp/1rn31mv0dlxcvs13u392q01dz0hg/trans_flight.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ie2vs81cfpdzk1g8flg51qo399k' name='trans_flight.csv' table='[trans_flight#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:L5112:no:A1:L5112:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='FLIGHT_KEY' ordinal='0' />
+            <column datatype='string' name='TAIL_NUMBER' ordinal='1' />
+            <column datatype='integer' name='FLIGHT_NUMBER' ordinal='2' />
+            <column datatype='integer' name='CANCELLED' ordinal='3' />
+            <column datatype='integer' name='DIVERTED' ordinal='4' />
+            <column datatype='string' name='ORIGIN_AIRPORT' ordinal='5' />
+            <column datatype='string' name='DESTINATION_AIRPORT' ordinal='6' />
+            <column datatype='integer' name='CUSTOMER_ID' ordinal='7' />
+            <column datatype='integer' name='THE_YEAR' ordinal='8' />
+            <column datatype='integer' name='THE_MONTH' ordinal='9' />
+            <column datatype='integer' name='THE_DAY' ordinal='10' />
+            <column datatype='string' name='DB_SOURCE' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0ie2vs81cfpdzk1g8flg51qo399k' name='trans_flight.csv' table='[trans_flight#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:L5112:no:A1:L5112:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='FLIGHT_KEY' ordinal='0' />
+            <column datatype='string' name='TAIL_NUMBER' ordinal='1' />
+            <column datatype='integer' name='FLIGHT_NUMBER' ordinal='2' />
+            <column datatype='integer' name='CANCELLED' ordinal='3' />
+            <column datatype='integer' name='DIVERTED' ordinal='4' />
+            <column datatype='string' name='ORIGIN_AIRPORT' ordinal='5' />
+            <column datatype='string' name='DESTINATION_AIRPORT' ordinal='6' />
+            <column datatype='integer' name='CUSTOMER_ID' ordinal='7' />
+            <column datatype='integer' name='THE_YEAR' ordinal='8' />
+            <column datatype='integer' name='THE_MONTH' ordinal='9' />
+            <column datatype='integer' name='THE_DAY' ordinal='10' />
+            <column datatype='string' name='DB_SOURCE' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L5112:no:A1:L5112:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>40888</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FLIGHT_KEY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FLIGHT_KEY]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>FLIGHT_KEY</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAIL_NUMBER</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TAIL_NUMBER]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>TAIL_NUMBER</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FLIGHT_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FLIGHT_NUMBER]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>FLIGHT_NUMBER</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CANCELLED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CANCELLED]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>CANCELLED</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DIVERTED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DIVERTED]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>DIVERTED</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ORIGIN_AIRPORT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ORIGIN_AIRPORT]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>ORIGIN_AIRPORT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DESTINATION_AIRPORT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DESTINATION_AIRPORT]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>DESTINATION_AIRPORT</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CUSTOMER_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CUSTOMER_ID]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>CUSTOMER_ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THE_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[THE_YEAR]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>THE_YEAR</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THE_MONTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[THE_MONTH]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>THE_MONTH</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THE_DAY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[THE_DAY]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>THE_DAY</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DB_SOURCE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DB_SOURCE]</local-name>
+            <parent-name>[trans_flight.csv]</parent-name>
+            <remote-alias>DB_SOURCE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cancelled' datatype='integer' name='[CANCELLED]' role='measure' type='quantitative' />
+      <column caption='Customer Id' datatype='integer' name='[CUSTOMER_ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Cancelled (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[CANCELLED]' peg='0' size='0.303' />
+      </column>
+      <column caption='Db Source' datatype='string' name='[DB_SOURCE]' role='dimension' type='nominal' />
+      <column caption='Destination Airport' datatype='string' name='[DESTINATION_AIRPORT]' role='dimension' type='nominal' />
+      <column caption='Diverted' datatype='integer' name='[DIVERTED]' role='measure' type='quantitative' />
+      <column caption='Flight Key' datatype='integer' name='[FLIGHT_KEY]' role='dimension' type='ordinal' />
+      <column caption='Flight Number' datatype='integer' name='[FLIGHT_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='Origin Airport' datatype='string' name='[ORIGIN_AIRPORT]' role='dimension' type='nominal' />
+      <column caption='Tail Number' datatype='string' name='[TAIL_NUMBER]' role='dimension' type='nominal' />
+      <column caption='The Day' datatype='integer' name='[THE_DAY]' role='dimension' type='quantitative' />
+      <column caption='THE MONTH (trans complaint.csv)' datatype='integer' name='[THE_MONTH (trans_complaint.csv)]' role='dimension' type='quantitative' />
+      <column caption='The Month' datatype='integer' name='[THE_MONTH]' role='dimension' type='quantitative' />
+      <column caption='The Year' datatype='integer' name='[THE_YEAR]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='trans_flight.csv' datatype='table' name='[__tableau_internal_object_id__].[trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Nepal&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='trans_flight.csv' id='trans_flight.csv_94291A9F345B4EB9A1BBBF93D09AF5B3'>
+            <properties context=''>
+              <relation connection='textscan.0ie2vs81cfpdzk1g8flg51qo399k' name='trans_flight.csv' table='[trans_flight#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:L5112:no:A1:L5112:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='FLIGHT_KEY' ordinal='0' />
+                  <column datatype='string' name='TAIL_NUMBER' ordinal='1' />
+                  <column datatype='integer' name='FLIGHT_NUMBER' ordinal='2' />
+                  <column datatype='integer' name='CANCELLED' ordinal='3' />
+                  <column datatype='integer' name='DIVERTED' ordinal='4' />
+                  <column datatype='string' name='ORIGIN_AIRPORT' ordinal='5' />
+                  <column datatype='string' name='DESTINATION_AIRPORT' ordinal='6' />
+                  <column datatype='integer' name='CUSTOMER_ID' ordinal='7' />
+                  <column datatype='integer' name='THE_YEAR' ordinal='8' />
+                  <column datatype='integer' name='THE_MONTH' ordinal='9' />
+                  <column datatype='integer' name='THE_DAY' ordinal='10' />
+                  <column datatype='string' name='DB_SOURCE' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='trans_flight' inline='true' name='federated.1h1s7111buoc021e5xrd00753f2o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='trans_flight' name='textscan.1dv115r1jiuk0810r537x1t9mjq9'>
+            <connection class='textscan' directory='D:/British/Oracle/assignment/Assignment/trans_reports' filename='trans_flight.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1dv115r1jiuk0810r537x1t9mjq9' name='trans_complaint.csv' table='[trans_complaint#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='COMPLAINT_KEY' ordinal='0' />
+            <column datatype='integer' name='COMPLAINT_ID' ordinal='1' />
+            <column datatype='string' name='COMPLAINT_TYPE' ordinal='2' />
+            <column datatype='string' name='COMPLAINT_DESCRIPTION' ordinal='3' />
+            <column datatype='string' name='COMPLAINT_STATUS' ordinal='4' />
+            <column datatype='integer' name='COMPENSATION_AMNT' ordinal='5' />
+            <column datatype='string' name='ALLOCATED_TO' ordinal='6' />
+            <column datatype='integer' name='CUSTOMER_ID' ordinal='7' />
+            <column datatype='integer' name='FLIGHT_NUMBER' ordinal='8' />
+            <column datatype='integer' name='THE_YEAR' ordinal='9' />
+            <column datatype='integer' name='THE_MONTH' ordinal='10' />
+            <column datatype='integer' name='THE_DAY' ordinal='11' />
+            <column datatype='string' name='DB_SOURCE' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1dv115r1jiuk0810r537x1t9mjq9' name='trans_complaint.csv' table='[trans_complaint#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='COMPLAINT_KEY' ordinal='0' />
+            <column datatype='integer' name='COMPLAINT_ID' ordinal='1' />
+            <column datatype='string' name='COMPLAINT_TYPE' ordinal='2' />
+            <column datatype='string' name='COMPLAINT_DESCRIPTION' ordinal='3' />
+            <column datatype='string' name='COMPLAINT_STATUS' ordinal='4' />
+            <column datatype='integer' name='COMPENSATION_AMNT' ordinal='5' />
+            <column datatype='string' name='ALLOCATED_TO' ordinal='6' />
+            <column datatype='integer' name='CUSTOMER_ID' ordinal='7' />
+            <column datatype='integer' name='FLIGHT_NUMBER' ordinal='8' />
+            <column datatype='integer' name='THE_YEAR' ordinal='9' />
+            <column datatype='integer' name='THE_MONTH' ordinal='10' />
+            <column datatype='integer' name='THE_DAY' ordinal='11' />
+            <column datatype='string' name='DB_SOURCE' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPLAINT_KEY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMPLAINT_KEY]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>COMPLAINT_KEY</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPLAINT_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMPLAINT_ID]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>COMPLAINT_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPLAINT_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COMPLAINT_TYPE]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>COMPLAINT_TYPE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPLAINT_DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COMPLAINT_DESCRIPTION]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>COMPLAINT_DESCRIPTION</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPLAINT_STATUS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COMPLAINT_STATUS]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>COMPLAINT_STATUS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMPENSATION_AMNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMPENSATION_AMNT]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>COMPENSATION_AMNT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALLOCATED_TO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALLOCATED_TO]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>ALLOCATED_TO</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CUSTOMER_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CUSTOMER_ID]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>CUSTOMER_ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FLIGHT_NUMBER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FLIGHT_NUMBER]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>FLIGHT_NUMBER</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THE_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[THE_YEAR]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>THE_YEAR</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THE_MONTH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[THE_MONTH]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>THE_MONTH</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>THE_DAY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[THE_DAY]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>THE_DAY</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DB_SOURCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DB_SOURCE]</local-name>
+            <parent-name>[trans_complaint.csv]</parent-name>
+            <remote-alias>DB_SOURCE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Allocated To' datatype='string' name='[ALLOCATED_TO]' role='dimension' type='nominal' />
+      <column caption='Compensation Amnt' datatype='integer' name='[COMPENSATION_AMNT]' role='measure' type='quantitative' />
+      <column caption='Complaint Description' datatype='string' name='[COMPLAINT_DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Complaint Id' datatype='integer' name='[COMPLAINT_ID]' role='dimension' type='ordinal' />
+      <column caption='Complaint Key' datatype='integer' name='[COMPLAINT_KEY]' role='dimension' type='ordinal' />
+      <column caption='Complaint Status' datatype='string' name='[COMPLAINT_STATUS]' role='dimension' type='nominal' />
+      <column caption='Complaint Type' datatype='string' name='[COMPLAINT_TYPE]' role='dimension' type='nominal' />
+      <column caption='Customer Id' datatype='integer' name='[CUSTOMER_ID]' role='dimension' type='ordinal' />
+      <column caption='Db Source' datatype='string' name='[DB_SOURCE]' role='dimension' type='nominal' />
+      <column caption='Flight Number' datatype='integer' name='[FLIGHT_NUMBER]' role='dimension' type='ordinal' />
+      <column caption='The Day' datatype='integer' name='[THE_DAY]' role='dimension' type='quantitative' />
+      <column caption='The Month' datatype='integer' name='[THE_MONTH]' role='dimension' type='quantitative' />
+      <column caption='The Year' datatype='integer' name='[THE_YEAR]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='trans_complaint.csv' datatype='table' name='[__tableau_internal_object_id__].[trans_complaint.csv_6D985B7C5B6A416E892B222609804874]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Nepal&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='trans_complaint.csv' id='trans_complaint.csv_6D985B7C5B6A416E892B222609804874'>
+            <properties context=''>
+              <relation connection='textscan.1dv115r1jiuk0810r537x1t9mjq9' name='trans_complaint.csv' table='[trans_complaint#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='COMPLAINT_KEY' ordinal='0' />
+                  <column datatype='integer' name='COMPLAINT_ID' ordinal='1' />
+                  <column datatype='string' name='COMPLAINT_TYPE' ordinal='2' />
+                  <column datatype='string' name='COMPLAINT_DESCRIPTION' ordinal='3' />
+                  <column datatype='string' name='COMPLAINT_STATUS' ordinal='4' />
+                  <column datatype='integer' name='COMPENSATION_AMNT' ordinal='5' />
+                  <column datatype='string' name='ALLOCATED_TO' ordinal='6' />
+                  <column datatype='integer' name='CUSTOMER_ID' ordinal='7' />
+                  <column datatype='integer' name='FLIGHT_NUMBER' ordinal='8' />
+                  <column datatype='integer' name='THE_YEAR' ordinal='9' />
+                  <column datatype='integer' name='THE_MONTH' ordinal='10' />
+                  <column datatype='integer' name='THE_DAY' ordinal='11' />
+                  <column datatype='string' name='DB_SOURCE' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Drill down of total compensation amount </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='trans_flight' name='federated.1h1s7111buoc021e5xrd00753f2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1h1s7111buoc021e5xrd00753f2o'>
+            <column caption='Compensation Amnt' datatype='integer' name='[COMPENSATION_AMNT]' role='measure' type='quantitative' />
+            <column caption='The Day' datatype='integer' name='[THE_DAY]' role='dimension' type='quantitative' />
+            <column caption='The Month' datatype='integer' name='[THE_MONTH]' role='dimension' type='quantitative' />
+            <column caption='The Year' datatype='integer' name='[THE_YEAR]' role='dimension' type='quantitative' />
+            <column-instance column='[THE_DAY]' derivation='None' name='[none:THE_DAY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[THE_MONTH]' derivation='None' name='[none:THE_MONTH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[THE_YEAR]' derivation='None' name='[none:THE_YEAR:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[THE_YEAR]' derivation='None' name='[none:THE_YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[COMPENSATION_AMNT]' derivation='Sum' name='[sum:COMPENSATION_AMNT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_YEAR:ok]'>
+            <groupfilter function='member' level='[none:THE_YEAR:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_YEAR:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_DAY:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_MONTH:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_YEAR:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1h1s7111buoc021e5xrd00753f2o].[sum:COMPENSATION_AMNT:qk]</rows>
+        <cols>([federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_DAY:qk] + ([federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_MONTH:qk] + [federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_YEAR:qk]))</cols>
+        <show-full-range>
+          <column>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[Cancelled (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{30E4E53C-CB60-4A0F-8FAD-C84F6CB1E8C9}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:COMPLAINT_DESCRIPTION:nk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:COMPLAINT_ID:ok]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:COMPLAINT_TYPE:nk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:CUSTOMER_ID (trans_complaint.csv):ok]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:CUSTOMER_ID:ok]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:DB_SOURCE:nk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:DESTINATION_AIRPORT:nk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:FLIGHT_NUMBER (trans_complaint.csv):ok]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:FLIGHT_NUMBER:ok]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:THE_DAY (trans_complaint.csv):qk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:THE_DAY:qk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:THE_MONTH (trans_complaint.csv):qk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:THE_MONTH:qk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:THE_YEAR (trans_complaint.csv):qk]</field>
+            <field>[federated.0n8hq4l0b3wrhu1fae0vg1jv68wf].[none:THE_YEAR:qk]</field>
+            <field>[federated.1h1s7111buoc021e5xrd00753f2o].[none:FLIGHT_NUMBER:ok]</field>
+            <field>[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_DAY:qk]</field>
+            <field>[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_MONTH:qk]</field>
+            <field>[federated.1h1s7111buoc021e5xrd00753f2o].[none:THE_YEAR:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A29546F6-13A6-4068-AE53-E5B363EFF39E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      gYSj/R8bRfrP7628OwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
